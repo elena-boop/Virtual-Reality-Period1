@@ -35,6 +35,26 @@ window.addEventListener("DOMContentLoaded",function() {
       5) Set house entities position to those passed in to the function.
       6) Add the house entity to the scene
 */
+
+
+function createHouse(x, y, z){
+let house = document.createElement("a-entity");
+
+let wall = document.createElement("a-box");
+wall.setAttribute("")
+
+
+
+
+
+
+
+}
+
+
+
+
+
 function createTree(x, y, z){
   let tree = document.createElement("a-entity");
   
